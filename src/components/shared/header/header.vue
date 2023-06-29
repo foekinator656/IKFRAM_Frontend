@@ -162,16 +162,10 @@ export default {
       }
     }
   },
-  beforeMount() {
-    this.getProductsFromOrder();
-  }
 };
 </script>
 
 <style>
-.login-icon {
-  @apply inline-block w-6 h-6;
-}
 
 .login-icon i {
   @apply text-gray-500;
